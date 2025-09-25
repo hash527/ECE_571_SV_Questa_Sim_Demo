@@ -9,7 +9,7 @@ This repo demonstrates how to set up, compile, and run a **SystemVerilog simulat
 
 ```bash
 # 1️⃣ Clone the repository
-git clone [https://github.com/your-username/questasim-mux-demo.git](https://github.com/hash527/ECE_571_SV_Questa_Sim_Demo.git)
+git clone https://github.com/hash527/ECE_571_SV_Questa_Sim_Demo.git
 cd ECE_571_SV_Questa_Sim_Demo
 
 # 2️⃣ Create a library directory (required by QuestaSim)
