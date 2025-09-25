@@ -1,39 +1,54 @@
-````markdown
-# QuestaSim Demo – Simple MUX in SystemVerilog
+Here’s a **clean and pretty GitHub README** version with formatting, emojis, and sections for readability:
 
-## Setup
+````markdown
+# ⚡ QuestaSim Demo – Simple MUX in SystemVerilog
+
+This repo demonstrates how to set up, compile, and run a **SystemVerilog simulation** in QuestaSim using a simple MUX example.  
+
+---
+
+## 🚀 Quick Start  
+
 ```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/your-username/questasim-mux-demo.git
+cd questasim-mux-demo
+
+# 2️⃣ Create a library directory (required by QuestaSim)
 vlib work
+
+# 3️⃣ Compile SystemVerilog files with error source info
+vlog -source stimulus.sv ripple_carry_counter.sv
+
+# 4️⃣ (Optional) Run static lint check to catch warnings/unused signals
+vlog -lint ripple_carry_counter.sv
+
+# 5️⃣ Compile all SystemVerilog files in the directory
+vlog *.sv
+
+# 6️⃣ Run simulation in CLI mode (no GUI)
+vsim -c stimulus
 ````
 
-## Compile
+---
 
-```bash
-vlog -source stimulus.sv ripple_carry_counter.sv
-vlog -lint ripple_carry_counter.sv
-vlog *.sv
-```
-
-## Run
-
-```bash
-vsim -c stimulus
-```
-
-### At the vsim prompt
+## 🖥️ At the `vsim` Prompt
 
 ```tcl
+# Add all signals from the stimulus module to the waveform viewer
 add wave sim:/stimulus/*
+
+# Run simulation until it finishes ($finish or $stop)
 run -all
 ```
 
-### One-liner with GUI and waveforms
+---
+
+## 🎨 One-Liner with GUI + Waveforms
 
 ```bash
+# Launch GUI, load all signals, and run the simulation to completion
 vsim -debugDB stimulus -do "add wave sim:/stimulus/* ; run -all"
 ```
 
-```
-
-Do you want me to also add a **clone + run quick start section** (like `git clone …`, then run commands), or keep it strictly about QuestaSim?
-```
+---
