@@ -1,0 +1,84 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11f vlog 2021.3_1 2021.08, Aug 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/u/duvvuru/Desktop/Questa_Sim_Demo
+T_opt
+!s110 1758769414
+VV04lDZlib<0Fbgf70:^B60
+Z2 04 6 4 work mux_tb fast 0
+=1-000ae431a4f1-68d4b104-8d099-35d77
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.3_1;73
+R1
+T_opt1
+!s110 1758769603
+V:7XEJoX9LL=IlKkzhn0iP0
+R2
+=1-000ae431a4f1-68d4b1c2-5b9d-3741e
+R3
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R4
+n@_opt1
+R5
+vmux_2_1
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z7 !s110 1758769390
+!i10b 1
+!s100 DU>mX?^jWLM@VCUnZe=@b0
+Ih6Ne49[ok]T1GjYo8DZ2b1
+S1
+R1
+w1758768695
+8mux.sv
+Fmux.sv
+!i122 4
+L0 1 7
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.3_1;73
+r1
+!s85 0
+31
+Z10 !s108 1758769389.000000
+Z11 !s107 mux_tb.sv|mux.sv|
+Z12 !s90 mux.sv|mux_tb.sv|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vmux_tb
+R6
+R7
+!i10b 1
+!s100 BC<74OhDO0oJJ@B>zLD;?2
+IRX;iOlW<MY4fTC>j?zAcB1
+S1
+R1
+w1758769381
+8mux_tb.sv
+Fmux_tb.sv
+!i122 4
+L0 1 15
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
