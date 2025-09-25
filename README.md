@@ -1,5 +1,3 @@
-Here’s a **clean and pretty GitHub README** version with formatting, emojis, and sections for readability:
-
 ````markdown
 # ⚡ QuestaSim Demo – Simple MUX in SystemVerilog
 
